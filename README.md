@@ -1,5 +1,4 @@
 # fsjs-random-quote-generator-project-1
-Created an app that displays random quotes each time a button is clicked
 
 Using knowledge of vanilla JavaScript syntax, including variables loops and object literals; create an app that displays random quotes each time a button is clicked.
 
