@@ -4,13 +4,13 @@ function getRandomQuote() {
     let randomNumber = Math.floor(Math.random() * quotes.length);
     let randomQuote = quotes[randomNumber];
     return randomQuote;
-};
+}
 
 //selects a random hex number up to 256
 function randomRGB() {
     let color = Math.floor(Math.random() * 256);
     return color;
-};
+}
 
 function printQuote() {
     //random background colour
@@ -42,6 +42,6 @@ function printQuote() {
     document.body.style.backgroundColor = rgbColor;
     // stores the returned quote object in a variable.
     document.getElementById('quote-box').innerHTML = quote;
-};
+}
 
 document.getElementById('loadQuote').addEventListener('click', printQuote, false);
