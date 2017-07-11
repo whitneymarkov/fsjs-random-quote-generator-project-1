@@ -6,11 +6,13 @@ body {
 }
 #quote-box {
     position: absolute;
+    max-width: 1000px;
     top: 20%;
     left: 10%;
     right: 10%;
     width: 80%;
     line-height: .5;
+    margin: 0 auto;
 }
 .quote {
     font-size: 4rem;
