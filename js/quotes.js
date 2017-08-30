@@ -1,5 +1,5 @@
 // array to hold quote, sources citation and year for each quote
-const quotes = [
+let quotes = [
     {
         quote: 'There is a way out of every box, a solution to every puzzle; it\'s just a matter of finding it.',
         source: 'Nick Sagan',
